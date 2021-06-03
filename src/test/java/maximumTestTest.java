@@ -35,4 +35,10 @@ class maximumTestTest {
         float result = test.maximum(41.8f,88.5f,98.7f);
         Assertions.assertEquals(98.7f,result);
     }
+    @Test
+    public void checkmaximumforstring(){
+        findMaximum test = new findMaximum();
+        String result = test.maximum("Apple","Banana","Guava");
+        Assertions.assertEquals("Guava",result);
+    }
 }
